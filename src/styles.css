@@ -23,3 +23,16 @@
 @media(min-width:1200px){.live-wave-panel{padding-right:370px}.live-wave-stage{height:clamp(280px,43vh,440px)}}
 @media(max-width:900px){.game-fullscreen{padding:0 16px 15px}.floating-camera{width:280px;top:9px}.game-title-block{padding-right:300px}.live-wave-panel{padding:15px}.live-wave-panel{padding-right:15px}.live-wave-stage{height:270px}.floating-camera{position:relative;top:auto;right:auto;width:min(100%,440px);margin:14px auto 0}.full-game-content{padding-top:17px}.game-title-block{padding-right:0;padding-bottom:190px}.floating-camera{position:absolute;top:110px;right:0;width:min(45%,300px)}.live-wave-panel{margin-top:0}.live-wave-stage{height:260px}}
 @media(max-width:600px){.game-fullscreen{padding:0 10px 12px}.game-topline{height:54px;grid-template-columns:1fr auto;gap:8px}.game-topline>.game-live{display:none}.game-back{font-size:8px;letter-spacing:.5px}.full-game-content{padding-top:14px}.game-title-block{padding-bottom:0;margin-bottom:12px}.game-title-block h1{font-size:29px}.game-title-block p{max-width:95%;font-size:10px}.floating-camera{position:relative;inset:auto;width:100%;max-width:none;margin:0 0 12px;display:grid;grid-template-columns:1fr}.floating-video-wrap{aspect-ratio:16/7;min-height:130px}.floating-camera-header{padding:8px 10px}.floating-camera-bottom{padding:7px 10px}.live-wave-panel{padding:11px;min-height:0}.live-wave-head h2{font-size:15px}.calibration-pill{font-size:7px;padding:6px}.live-wave-stage{height:clamp(205px,31vh,285px);margin-top:12px}.live-wave-stage .wave-label{font-size:7px}.wave-position-label{font-size:6px;right:5px}.live-metrics>div{padding:9px 6px}.live-metrics span{font-size:6px;letter-spacing:.5px}.live-metrics b{font-size:16px}.live-metrics b small{font-size:7px}.game-controls{display:grid;grid-template-columns:1fr 1fr}.game-controls button:first-child{grid-column:1/-1}.game-controls .btn-primary,.game-controls .btn-secondary{padding:10px 6px;font-size:9px}.vision-status{font-size:8px}.game-disclaimer{align-items:flex-start;text-align:left;font-size:7px}.floating-camera .camera-placeholder{gap:7px}.floating-camera .camera-placeholder svg{width:22px;height:22px}}
+
+@media(max-width:600px){
+ .full-game-content{position:relative}
+ .floating-camera{position:absolute;top:178px;right:11px;width:min(43%,175px);margin:0;z-index:5;box-shadow:0 8px 28px #000b}
+ .floating-camera-header{padding:7px}
+ .floating-camera-header b{font-size:6px}
+ .floating-camera-header>span{font-size:6px}
+ .floating-video-wrap{aspect-ratio:4/3;min-height:0}
+ .floating-camera-bottom{padding:6px}
+ .floating-camera-bottom>span{font-size:6px}
+ .floating-camera-bottom button{font-size:7px;padding:5px}
+ .live-wave-stage{height:clamp(230px,37vh,310px)}
+}
