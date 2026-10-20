@@ -14,7 +14,8 @@
     "typescript": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "lucide-react": "latest"
+    "lucide-react": "latest",
+    "@mediapipe/tasks-vision": "^0.10.22"
   },
   "devDependencies": {
     "@types/react": "latest",
